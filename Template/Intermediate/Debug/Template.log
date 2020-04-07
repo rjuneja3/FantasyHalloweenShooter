@@ -1,0 +1,26 @@
+﻿  FinalLevelButton.cpp
+  NextLevelButton.cpp
+  PowerUp.cpp
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(9,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(10,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(26,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(27,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(30,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Template.vcxproj -> G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\bin\Debug\Template.exe

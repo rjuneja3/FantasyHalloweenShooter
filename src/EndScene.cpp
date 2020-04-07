@@ -1,0 +1,84 @@
+#include "EndScene.h"
+#include "Game.h"
+#include <ctime>
+#include "GLM/gtx/string_cast.hpp"
+#include <algorithm>
+#include "TileComparators.h"
+#include <iomanip>
+
+EndScene::EndScene()
+{
+	EndScene::start();
+}
+
+EndScene::~EndScene()
+{
+}
+
+void EndScene::draw()
+{
+	m_pBackground->draw();
+	m_pBackground1->draw();
+	m_LabelGameOver->draw();
+	m_LabelNewGame->draw();
+}
+
+void EndScene::update()
+{
+	m_pBackground->update();
+	m_pBackground1->update();
+}
+
+void EndScene::clean()
+{
+	delete m_LabelGameOver;
+	delete m_LabelNewGame;
+	removeAllChildren();
+}
+
+void EndScene::handleEvents()
+{
+	SDL_Event event;
+	if (SDL_PollEvent(&event))
+	{
+		switch (event.type)
+		{
+		case SDL_QUIT:
+			TheGame::Instance()->quit();
+			break;
+		case SDL_KEYDOWN:
+			switch (event.key.keysym.sym)
+			{
+			case SDLK_ESCAPE:
+				TheGame::Instance()->quit();
+				break;
+			
+			case SDLK_1:
+				TheGame::Instance()->changeSceneState(SceneState::START_SCENE);
+				
+				break;
+			}
+			break;
+		default:
+			break;
+		}
+	}
+}
+
+void EndScene::start()
+{
+	SDL_Color orange = { 255, 153, 102, 255 };
+	SDL_Color red = { 255, 0, 0, 255 };
+	m_LabelGameOver = new Label("GAME OVER", "Dock51", 80, red , glm::vec2(400.0f, 80.0f));
+	m_LabelNewGame = new Label("Press \"1\" to restart the game!", "Dock51", 30, orange, glm::vec2(400.0f, 200.0f));
+	m_LabelGameOver->setParent(this);
+	m_LabelNewGame->setParent(this);
+	addChild(m_LabelGameOver);
+	addChild(m_LabelNewGame);
+
+	m_pBackground = new Background();
+	m_pBackground1 = new Background1();
+	
+	addChild(m_pBackground);
+	addChild(m_pBackground1);
+}
