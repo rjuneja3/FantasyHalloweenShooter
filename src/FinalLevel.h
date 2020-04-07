@@ -9,7 +9,7 @@
 #include "Bullet.h"
 #include "Background.h"
 #include "Background1.h"
-#include "Comet.h"
+#include "Dragon.h"
 #include "SmallEnemy.h"
 #include "MediumBoss.h"
 
@@ -24,7 +24,7 @@ public:
 	void clean() override;
 	void handleEvents() override;
 	void start() override;
-	static const int MAX_COMETS = 5;
+	static const int MAX_DRAGONS = 5;
 	static const int MAX_SMALL_ENEMIES = 6;
 
 
@@ -43,8 +43,8 @@ private:
 	Bullet* m_pBullet;
 	Background* m_pBackground;
 	Background1* m_pBackground1;
-	//Comet* m_pComet;
-	Comet* m_pComets[MAX_COMETS];
+	
+	Dragon* m_pDragons[MAX_DRAGONS];
 	SmallEnemy* m_pSmallEnemies[MAX_SMALL_ENEMIES];
 	MediumBoss* m_pMediumBoss;
 	Label* m_pLabel;

@@ -7,7 +7,7 @@
 
 #include "DisplayObject.h"
 #include <SDL_hints.h>
-#include "Comet.h"
+#include "Dragon.h"
 
 enum BulletPosition
 {
@@ -36,14 +36,14 @@ public:
 	//getter
 	float getSpeed();
 	void checkBounds();
-	void setComet(Comet* pcomet);
+	void setDragon(Dragon* pdragon);
 	void reset();
 
 private:
 
 	Uint8 m_alpha;
 	bool m_isActive;
-	Comet* m_pComet;
+	Dragon* m_pDragon;
 	float m_speed;
 	
 	BulletPosition m_bulletPosition;

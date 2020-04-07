@@ -7,7 +7,7 @@
 
 #include "DisplayObject.h"
 #include <SDL_hints.h>
-#include "Comet.h"
+#include "Dragon.h"
 
 
 class EnemyBullet : public DisplayObject

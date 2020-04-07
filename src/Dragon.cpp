@@ -1,12 +1,12 @@
-#include "Comet.h"
+#include "Dragon.h"
 #include "Game.h"
 
-Comet::Comet()
+Dragon::Dragon()
 {
 	m_alpha = 255;
 	TheTextureManager::Instance()->load("../Assets/dragon (1).png",
-		"comet", TheGame::Instance()->getRenderer());
-	glm::vec2 size = TheTextureManager::Instance()->getTextureSize("comet");
+		"Dragon", TheGame::Instance()->getRenderer());
+	glm::vec2 size = TheTextureManager::Instance()->getTextureSize("Dragon");
 	setWidth(size.x);
 	setHeight(size.y);
 	setPosition(glm::vec2(0.0f, 0.0f));
@@ -14,7 +14,7 @@ Comet::Comet()
 	setAcceleration(glm::vec2(0.0f, 0.0f));
 	setIsColliding(false);
 	setActive(true);
-	setType(GameObjectType::COMET);
+	setType(GameObjectType::DRAGON);
 	m_health = 2;
 	m_angle = 0;
 	m_rotationAngel = 0;
@@ -22,23 +22,23 @@ Comet::Comet()
 	m_pPowerUp = new PowerUp();
 }
 
-Comet::~Comet()
+Dragon::~Dragon()
 {
 }
 
-void Comet::draw()
+void Dragon::draw()
 {
 	int xComponent = getPosition().x;
 	int yComponent = getPosition().y;
 	//xComponent = 700;
 	//yComponent = 300;
 
-	TheTextureManager::Instance()->draw("comet", xComponent, yComponent,
+	TheTextureManager::Instance()->draw("Dragon", xComponent, yComponent,
 		TheGame::Instance()->getRenderer(), m_angle, m_alpha, true);
 	//m_pPowerUp->draw();
 }
 
-void Comet::update()
+void Dragon::update()
 {
 	
 	glm::vec2 currentPosition = getPosition();
@@ -64,17 +64,17 @@ void Comet::update()
 	
 }
 
-void Comet::clean()
+void Dragon::clean()
 {
 
 }
 
-void Comet::move()
+void Dragon::move()
 {
 	setPosition(glm::vec2((getPosition().x - 10), getPosition().y));
 }
 
-void Comet::reset()
+void Dragon::reset()
 {
 	//m_rotationAngel = 0.1 * ((rand() % 10) + 1);
 	//m_angle = (rand() % 179) + 1;
@@ -89,23 +89,23 @@ void Comet::reset()
 	setPosition(currentPosition);
 }
 
-void Comet::getDamage()
+void Dragon::getDamage()
 {
 	m_health--;
 	//reset();
 }
 
-void Comet::setActive(bool active)
+void Dragon::setActive(bool active)
 {
 	m_isActive = active;
 }
 
-bool Comet::isActive()
+bool Dragon::isActive()
 {
 	return m_isActive;
 }
 
-PowerUp* Comet::getPowerUp()
+PowerUp* Dragon::getPowerUp()
 {
 	return m_pPowerUp;
 }

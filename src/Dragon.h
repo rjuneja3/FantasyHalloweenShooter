@@ -1,6 +1,6 @@
 #pragma once
-#ifndef __COMET__
-#define __COMET__
+#ifndef __Dragon__
+#define __Dragon__
 
 #include <vector>
 
@@ -9,11 +9,11 @@
 #include "SoundManager.h"
 #include "PowerUp.h"
 
-class Comet:public DisplayObject
+class Dragon:public DisplayObject
 {
 public:
-	Comet();
-	~Comet();
+	Dragon();
+	~Dragon();
 	void draw() override;
 	void update() override;
 	void clean() override;

@@ -54,15 +54,15 @@ void Bullet::update()
 			setPosition(glm::vec2((getPosition().x + getSpeed()), getPosition().y));
 		}
 	}
-	if(m_pComet != nullptr)
+	if(m_pDragon != nullptr)
 	{
 		//Collision::squaredRadiusCheck(this, m_pComet);
 	}
 }
 
-void Bullet::setComet(Comet* pcomet)
+void Bullet::setDragon(Dragon* pdragon)
 {
-	m_pComet = pcomet;
+	m_pDragon = pdragon;
 }
 
 void Bullet::reset()

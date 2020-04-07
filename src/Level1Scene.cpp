@@ -23,19 +23,12 @@ void Level1Scene::draw()
 	m_pBackground1->draw();
 	//m_pLabel->draw();
 	m_pPlayer->draw();
-	for (int i = 0; i < MAX_COMETS; i++)
+	for (int i = 0; i < MAX_DRAGONS; i++)
 	{
-		m_pComets[i]->draw();
-		m_pComets[i]->getPowerUp()->draw();
+		m_pDragon[i]->draw();
+		m_pDragon[i]->getPowerUp()->draw();
 	}
-	//m_pComet->draw();
-
-	//Draws small enemies
-	/*for(int i = 0; i < MAX_SMALL_ENEMIES; i++)
-	{
-		m_pSmallEnemies[i]->draw(i);
-	}*/
-	//m_pMediumBoss->draw();
+	
 	ScoreBoardManager::Instance()->Draw();
 }
 
@@ -59,31 +52,31 @@ void Level1Scene::update()
 	}
 	m_pPlayer->update();
 	
-	for (int i = 0; i < MAX_COMETS; i++)
+	for (int i = 0; i < MAX_DRAGONS; i++)
 	{
-		m_pComets[i]->update();
+		m_pDragon[i]->update();
 	}
 	/*for (int i = 0; i < MAX_SMALL_ENEMIES; i++) {
 		m_pSmallEnemies[i]->update();
 	}*/
 	for(int i = 0; i < m_pPlayer->MAX_BULLETS; i++)
 	{
-		for(int j = 0; j < MAX_COMETS; j++)
+		for(int j = 0; j < MAX_DRAGONS; j++)
 		{
-			if (Collision::squaredRadiusCheck(m_pComets[j], m_pPlayer->mBullets[i]))
+			if (Collision::squaredRadiusCheck(m_pDragon[j], m_pPlayer->mBullets[i]))
 			{
 				m_pPlayer->mBullets[i]->reset();
-				m_pComets[j]->getDamage();
+				m_pDragon[j]->getDamage();
 			}
-			if (Collision::squaredRadiusCheck(m_pPlayer, m_pComets[j]))
+			if (Collision::squaredRadiusCheck(m_pPlayer, m_pDragon[j]))
 			{
 				m_pPlayer->decreaseLife();
-				m_pComets[j]->reset();
+				m_pDragon[j]->reset();
 
 			}
-			if(Collision::squaredRadiusCheck(m_pPlayer, m_pComets[j]->getPowerUp()))
+			if(Collision::squaredRadiusCheck(m_pPlayer, m_pDragon[j]->getPowerUp()))
 			{
-				m_pComets[j]->getPowerUp()->reset();
+				m_pDragon[j]->getPowerUp()->reset();
 			}
 		}
 		//Update enemies and check collision
@@ -243,9 +236,9 @@ void Level1Scene::start()
 		std::cout << m_pSmallEnemies[i]->getPosition().x << " " << m_pSmallEnemies[i]->getPosition().y << std::endl;
 	}*/
 	
-	for(int i = 0; i < MAX_COMETS; i++)
+	for(int i = 0; i < MAX_DRAGONS; i++)
 	{
-		m_pComets[i] = new Comet();
+		m_pDragon[i] = new Dragon();
 	}
 	ScoreBoardManager::Instance()->Start();
 }

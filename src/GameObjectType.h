@@ -13,6 +13,7 @@ enum GameObjectType {
 	INSTRUCTIONS_BUTTON,
 	BACK_GROUND,
 	POWER_UP,
+	DRAGON,
 	NUM_OF_TYPES
 };
 
