@@ -21,6 +21,7 @@ void StartScene::draw()
 	m_pBackground1->draw();
 	m_pStartLabel->draw();
 	m_pStartButton->draw();
+	m_pInstructionsButton->draw();
 	
 }
 
@@ -30,7 +31,8 @@ void StartScene::update()
 	m_pBackground1->update();
 	m_pStartButton->setMousePosition(m_mousePosition);
 	m_pStartButton->ButtonClick();
-	
+	m_pInstructionsButton->setMousePosition(m_mousePosition);
+	m_pInstructionsButton->ButtonClick();
 }
 
 void StartScene::clean()
@@ -63,6 +65,8 @@ void StartScene::handleEvents()
 			{
 			case SDL_BUTTON_LEFT:
 				m_pStartButton->setMouseButtonClicked(true);
+				m_pInstructionsButton->setMouseButtonClicked(true);
+
 				break;
 			}
 
@@ -72,6 +76,7 @@ void StartScene::handleEvents()
 			{
 			case SDL_BUTTON_LEFT:
 				m_pStartButton->setMouseButtonClicked(false);
+				m_pInstructionsButton->setMouseButtonClicked(false);
 				break;
 			}
 			break;
@@ -82,7 +87,7 @@ void StartScene::handleEvents()
 				TheGame::Instance()->quit();
 				break;
 			case SDLK_1:
-				TheGame::Instance()->changeSceneState(SceneState::LEVEL_TWO);
+				
 				break;
 			case SDLK_2:
 				TheGame::Instance()->changeSceneState(SceneState::END_SCENE);
@@ -105,7 +110,8 @@ void StartScene::start()
 	addChild(m_pStartLabel);
 	m_pStartButton = new StartButton();
 	m_pStartButton->setMouseButtonClicked(false);
-
+	m_pInstructionsButton = new InstructionsButton();
+	m_pInstructionsButton->setMouseButtonClicked(false);
 	m_pBackground = new Background();
 	m_pBackground1 = new Background1();
 

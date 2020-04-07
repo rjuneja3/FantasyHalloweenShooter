@@ -5,7 +5,7 @@
 FinalLevelButton::FinalLevelButton()
 // call super constructor
 	:Button(
-		"../Assets/ext.png",
+		"../Assets/next.png",
 		"startButton",
 		NEXT_LEVEL_BUTTON, glm::vec2(400.0f, 300.0f)), m_isClicked(false)
 {

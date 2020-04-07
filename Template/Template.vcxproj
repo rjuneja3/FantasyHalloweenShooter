@@ -177,6 +177,9 @@
     <ClCompile Include="..\src\FontManager.cpp" />
     <ClCompile Include="..\src\Game.cpp" />
     <ClCompile Include="..\src\GameObject.cpp" />
+    <ClCompile Include="..\src\HomeButton.cpp" />
+    <ClCompile Include="..\src\InstructionsButton.cpp" />
+    <ClCompile Include="..\src\InstructionsScene.cpp" />
     <ClCompile Include="..\src\Label.cpp" />
     <ClCompile Include="..\src\Level1Scene.cpp" />
     <ClCompile Include="..\src\main.cpp" />
@@ -219,6 +222,9 @@
     <ClInclude Include="..\src\Game.h" />
     <ClInclude Include="..\src\GameObject.h" />
     <ClInclude Include="..\src\GameObjectType.h" />
+    <ClInclude Include="..\src\HomeButton.h" />
+    <ClInclude Include="..\src\InstructionsButton.h" />
+    <ClInclude Include="..\src\InstructionsScene.h" />
     <ClInclude Include="..\src\Label.h" />
     <ClInclude Include="..\src\Level1Scene.h" />
     <ClInclude Include="..\src\MediumBoss.h" />

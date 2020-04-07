@@ -4,6 +4,7 @@
 #include <algorithm>
 #include "TileComparators.h"
 #include <iomanip>
+#include "InstructionsScene.h"
 
 
 Game* Game::s_pInstance = 0;
@@ -159,6 +160,10 @@ void Game::changeSceneState(SceneState newState)
 			std::cout << "level 1 scene activated" << std::endl;
 			break;
 	
+		case SceneState::INSTRUCTIONS_SCENE:
+			m_currentScene = new InstructionsScene();
+			std::cout << "Instructions scene activated" << std::endl;
+			break;
 		case SceneState::TO_FINAL_LEVEL_SCENE:
 			m_currentScene = new ToFinalLevelScene();
 			std::cout << "To Final Level Scene Started" << std::endl;
