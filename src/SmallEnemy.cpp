@@ -1,3 +1,12 @@
+/**
+** ASSIGNMENT 2 - Web Game Programming
+** Author: Rohan Juneja
+** Student ID: 300987725
+** Last modified by Rohan Juneja
+** Last modified: April 6th 2020
+** Revision History: 1
+*/
+
 #include "SmallEnemy.h"
 #include "Game.h"
 #include "ScoreBoardManager.h"
@@ -16,22 +25,6 @@ SmallEnemy::SmallEnemy(int theYPosition)
 		pEnemyBullets[i] = new EnemyBullet();
 	}
 }
-//{
-//	m_alpha = 255;
-//	TheTextureManager::Instance()->load("../Assets/Ship_01/SmallEnemy.png",
-//		"SmallEnemy", TheGame::Instance()->getRenderer());
-//	glm::vec2 size = TheTextureManager::Instance()->getTextureSize("SmallEnemy");
-//	setWidth(size.x);
-//	setHeight(size.y);
-//	setPosition(glm::vec2(0.0f, 0.0f));
-//	setVelocity(glm::vec2(0.0f, 0.0f));
-//	setAcceleration(glm::vec2(0.0f, 0.0f));
-//	setIsColliding(false);
-//	setActive(true);
-//	setType(GameObjectType::ENEMY);
-//	m_health = 5;	
-//	reset();
-//}
 
 SmallEnemy::~SmallEnemy()
 {

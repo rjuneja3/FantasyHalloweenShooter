@@ -28,8 +28,8 @@ bool CollisionManager::squaredRadiusCheck(GameObject* object1, GameObject* objec
 			object2->setIsColliding(true);
 
 			switch (object2->getType()) {
-			case COMET:
-				std::cout << "Collision with Comet!" << std::endl;
+			case DRAGON:
+				std::cout << "Collision with DRAGON!" << std::endl;
 				ScoreBoardManager::Instance()->setHealth(ScoreBoardManager::Instance()->getHealth() -4);
 				//object2->clean();
 				TheSoundManager::Instance()->playSound("boom", 0);

@@ -1,3 +1,12 @@
+/**
+** ASSIGNMENT 2 - Web Game Programming
+** Author: Rohan Juneja
+** Student ID: 300987725
+** Last modified by Rohan Juneja
+** Last modified: April 6th 2020
+** Revision History: 1
+*/
+
 #include "Player.h"
 #include "Game.h"
 #include "NextLevelButton.h"

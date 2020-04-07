@@ -1,5 +1,14 @@
 #include "Bullet.h"
 #include "Game.h"
+/**
+** ASSIGNMENT 2 - Web Game Programming
+** Author: Rohan Juneja
+** Student ID: 300987725
+** Last modified by Rohan Juneja
+** Last modified: April 6th 2020
+** Revision History: 1
+*/
+
 #include "Level1Scene.h"
 #include "CollisionManager.h"
 
@@ -56,7 +65,6 @@ void Bullet::update()
 	}
 	if(m_pDragon != nullptr)
 	{
-		//Collision::squaredRadiusCheck(this, m_pComet);
 	}
 }
 

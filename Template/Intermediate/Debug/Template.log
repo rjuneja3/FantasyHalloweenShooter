@@ -1,85 +1,90 @@
-﻿  Background.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(10,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  imgui_sdl.cpp
+  Background.cpp
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(18,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(11,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(19,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(28,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(36,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(29,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background.cpp(37,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
   Background1.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(13,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(22,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(14,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(23,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(31,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(40,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(32,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Background1.cpp(41,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
   Bullet.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Bullet.cpp(29,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Bullet.cpp(38,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Bullet.cpp(30,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Bullet.cpp(39,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
   Button.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(11,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(20,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(12,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(21,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(23,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(32,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(24,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(33,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(54,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(54,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(55,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(55,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(56,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(56,20): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(57,32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(57,21): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(63,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(63,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(64,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(64,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(65,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(65,20): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(66,32): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Button.cpp(66,21): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
   CollisionManager.cpp
 G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\CollisionManager.cpp(10,15): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
@@ -107,84 +112,85 @@ G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Coll
 G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\CollisionManager.cpp(213,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
 G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\CollisionManager.cpp(215,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   Dragon.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(10,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(18,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(11,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(19,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(31,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(39,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(32,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(40,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(83,35): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(91,35): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(84,71): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Dragon.cpp(92,71): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
+  DisplayObject.cpp
   EndScene.cpp
   Enemy.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(11,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(18,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(12,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(19,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(24,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(31,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(25,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(32,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(83,37): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(86,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(89,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(92,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(90,37): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(93,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(96,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Enemy.cpp(99,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
   EnemyBullet.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\EnemyBullet.cpp(27,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\EnemyBullet.cpp(34,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\EnemyBullet.cpp(28,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\EnemyBullet.cpp(35,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
   FinalLevel.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\FinalLevel.cpp(127,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\FinalLevel.cpp(136,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\FinalLevel.cpp(128,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\FinalLevel.cpp(137,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
@@ -192,67 +198,70 @@ G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Fina
   FinalLevelButton.cpp
   FontManager.cpp
   Game.cpp
+  GameObject.cpp
+  Generating Code...
+  Compiling...
   HomeButton.cpp
   InstructionsButton.cpp
   InstructionsScene.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\InstructionsScene.cpp(73,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\InstructionsScene.cpp(82,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\InstructionsScene.cpp(74,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\InstructionsScene.cpp(83,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
   Label.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(16,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(25,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(17,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(26,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(28,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(37,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(29,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(38,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(54,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(63,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(55,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(64,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(75,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(84,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(76,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Label.cpp(85,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
   Level1Scene.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Level1Scene.cpp(125,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Level1Scene.cpp(134,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Level1Scene.cpp(126,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Level1Scene.cpp(135,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
@@ -260,84 +269,105 @@ G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Leve
   main.cpp
 G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\main.cpp(28,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   MediumBoss.cpp
-  Generating Code...
-  Compiling...
   NextLevelButton.cpp
   PowerUp.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(9,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(18,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(10,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(19,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(26,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(35,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(27,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(36,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(30,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\PowerUp.cpp(39,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Scene.cpp
   ScoreBoardManager.cpp
   Player.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(19,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(28,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(20,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(29,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(43,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(52,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(44,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(53,17): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(240,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\Player.cpp(249,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   SmallEnemy.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\SmallEnemy.cpp(89,35): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\SmallEnemy.cpp(82,35): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\SmallEnemy.cpp(90,71): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\SmallEnemy.cpp(83,71): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
           with
           [
               T=float
           ]
+  SoundManager.cpp
   StartButton.cpp
   StartScene.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\StartScene.cpp(56,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\StartScene.cpp(65,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\StartScene.cpp(57,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\StartScene.cpp(66,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  TextureManager.cpp
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(76,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(77,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(120,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(121,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(163,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(164,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(207,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(208,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(237,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(238,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(257,11): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\TextureManager.cpp(258,11): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
   ToFinalLevelScene.cpp
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\ToFinalLevelScene.cpp(54,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\ToFinalLevelScene.cpp(56,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
           ]
-G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\ToFinalLevelScene.cpp(55,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+G:\Semester 4 - Web Game Programming with C++\Fantasy Halloween Shooter\src\ToFinalLevelScene.cpp(57,36): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
           with
           [
               T=float
